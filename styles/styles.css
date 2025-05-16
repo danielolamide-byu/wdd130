@@ -20,7 +20,7 @@ nav a {
 }
 
 main {
-    max-width: auto;
+    max-width:fit-content;
 }
 
 main img {
