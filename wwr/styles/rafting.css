@@ -18,13 +18,15 @@ header {
 
 header {
     display: flex;
-    
+    text-align: center;
+    align-items: center;
 }
 
 header nav {
     display: flex;
     margin-top: 70px;
     margin-left: 120px;
+    gap: 10px;
     
     
     
@@ -64,11 +66,10 @@ section h2 {
 }
 
 
-figure {
+.figure {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    gap: 20px;
-    padding: 20px;
+    justify-items: center;
     align-items: center;
 }
 
