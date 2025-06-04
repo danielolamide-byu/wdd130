@@ -14,7 +14,20 @@ header {
     font-family: var(--header-font);
     background-color: var(--primary-color);
     color: var(--accent1-color)
+}
 
+header {
+    display: flex;
+    
+}
+
+header nav {
+    display: flex;
+    margin-top: 70px;
+    margin-left: 120px;
+    
+    
+    
 }
 
 body{
@@ -35,6 +48,28 @@ h1, h2 {
 nav, p, section, article {
     padding: 8px;
     margin: 16px;
+}
+
+.section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.section h2 {
+    text-align: center;
+}
+
+section h2 {
+    text-align: center;
+}
+
+
+figure {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    padding: 20px;
+    align-items: center;
 }
 
 .socialmedia a{
@@ -60,7 +95,8 @@ nav, p, section, article {
     width: 100px;
     height: auto;
     padding-top: 25px;
-    margin-left: 30px;
+    margin-left: 50px;
+    margin-bottom: 20px;
 }
 
 section img {
@@ -85,13 +121,18 @@ article {
     margin-top: 50px;
     margin-left: 10px;
     opacity: 0.7;
-
 }
 
 .hero article img{
     float: right;
     width: 124px;
     margin-top: 10px;
+}
+
+footer nav {
+    display: flex;
+    justify-content: flex-end;
+    padding: 1rem;
 }
 
 
