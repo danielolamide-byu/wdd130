@@ -17,9 +17,12 @@ header {
 }
 
 header {
-    display: flex;
+    display: grid;
     text-align: center;
     align-items: center;
+    place-items: center;
+    justify-items: center;
+    justify-content: center;
 }
 
 header nav {
@@ -27,9 +30,6 @@ header nav {
     margin-top: 70px;
     margin-left: 120px;
     gap: 10px;
-    
-    
-    
 }
 
 body{

@@ -1,0 +1,105 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:  "Poetsen One", sans-serif;
+    color: #05716a;
+    text-align: center;
+    }
+
+header {
+    padding: 20px;
+}
+
+form {
+    width: 600px;
+    margin: auto;
+    text-align: center;
+    padding: 1rem;
+    border: 2px solid rgb(57, 1, 1);
+    background-color: #e5e0e0;
+    border-radius: 20px;
+    display: grid;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: 20px;
+    border: 1px solid rgb(53, 4, 4);
+    border-radius: 5px;
+    margin: 7px;
+}
+
+fieldset textarea {
+    margin: 10px;
+    border-radius: 5px;
+}
+
+fieldset input {
+    margin: 10px;
+    border-radius: 5px;
+}
+
+fieldset label {
+    margin-top: 10px;
+}
+
+legend {
+    padding: 0.5rem;
+}
+
+input, select, textarea {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+}
+
+input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+    vertical-align: bottom;
+    margin: auto;
+}
+
+label, input, button, select, textarea {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+label {
+    text-align: center;
+    padding-right: 1rem;
+}
+
+.form-item {
+  display: grid;
+  align-items: center;
+}
+
+main fieldset select {
+    font-family:  "Poetsen One", sans-serif;
+    text-align: center;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+button {
+color: blue;
+margin: 20px;
+}
+
+button:hover {
+    color: darkgreen;
+    background-color: rgb(145, 145, 244);
+}
+
+footer {
+    margin: 1rem;
+    width: 600px;
+    margin: auto;
+    margin-top: 20px;
+    border-top: 1px solid rgb(54, 1, 1);
+}
