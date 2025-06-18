@@ -17,12 +17,7 @@ header {
 }
 
 header {
-    display: grid;
-    text-align: center;
-    align-items: center;
-    place-items: center;
-    justify-items: center;
-    justify-content: center;
+    display: flex;
 }
 
 header nav {
@@ -72,7 +67,7 @@ section h2 {
 
 .figure {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     justify-items: center;
     align-items: center;
 }
@@ -134,9 +129,33 @@ article {
     margin-top: 10px;
 }
 
+.forms
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    align-items: center;
+    margin-top: 30px;
+}
+main div form {
+    width: 400px;
+    border-radius: 5px;
+}
+
+main div iframe {
+ display: grid;
+ margin-left: 80px;
+ border-radius: 5px;
+ }
+
+ main div section p {
+    margin-top: 50px;
+ }
+
 footer nav {
     display: flex;
     justify-content: flex-end;
+    border: 200px;
     padding: 1rem;
 }
 
